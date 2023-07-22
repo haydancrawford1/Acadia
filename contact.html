@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Arcadia </title>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery-3.7.0"></script>
+  <script src="jquery-ui-1.13.2"></script>
+  <script src="/Acadia/css/stylesheet.css">
+  </script>
+  <script src="/Users/haydancrawford/Documents/Documents - Haydan’s iMac/Acadia/root/css/stylesheet.css"></script>
+  <script language="javascript">
+    function disName()
+{
+    alert(document.forms["ContactForm"]["firstname"].value)
+
+}
+  </script>
+  <style>
+  body {font-family: 'Cambria', sans-serif;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 600px;
+      font-family:"Cambria";
+      background-position: top center;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      background-color: #E5E7E6;
+    }
+  .jumbotron {background-image:url(images/grouphike.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    font-family:"Cambria";
+  }
+  .container {font-family:"Cambria";
+  }
+  .navbar {font-family:"Cambria";
+    background-color:white;
+  
+}
+  .navbar-toggle {background-color:#E9692C;}
+  .active {background-color: #E9692C;}
+</style>
+ <title>jQuery UI Button - Default functionality</title>
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+ <link rel="stylesheet" href="/resources/demos/style.css">
+ <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+ <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+ <script>
+ $( function() {
+   $( ".widget input[type=submit], .widget a, .widget button" ).button();
+   $( "button, input, a" ).on( "click", function( event ) {
+     event.preventDefault();
+   } );
+ } );
+ </script>
+ <script language="javascript">
+  function disTxt()
+  {
+   document.write(document.forms["ContactForm"]["myTa"].value) 
+  }
+ </script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="/root/index.html"><img src="images/acadialogo-main copy.jpg" width="50"> </img></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/root/index.html">Home</a></li>
+            <li><a href="/root/about.html">About</a></li>
+            <li><a href="/root/shop.html">Shop</a></li> 
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="root/contact.html"> Contact</a></li>
+          </ul>
+        </div>
+      </div> 
+      </nav>
+      <form name="ContactForm" action="" method="post">
+        First Name: <input type="text" name="firstname">
+        <br>
+        Last Name: <input type="text" name="lastname">
+        <br>
+        How can we help you? <textarea name="myta">
+        </textarea>
+        <input type="button" value="Submit" onClik="disTxt()">  
+        How can we contact you?
+      </form>
+</body>
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
